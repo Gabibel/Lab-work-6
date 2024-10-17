@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Excel</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="excel.html">Excel</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="excel-form">
+            <label for="numbers">Enter your numbers separated by spaces:</label>
+            <input type="text" id="numbers" name="numbers"><br>
+
+            <input type="radio" id="sum" name="excel" value="sum" checked> AutoSum
+            <input type="radio" id="avg" name="excel" value="avg"> Average
+            <input type="radio" id="max" name="excel" value="max"> Max
+            <input type="radio" id="min" name="excel" value="min"> Min<br>
+
+            <button type="button" id="Button3">Calculate</button>
+        </form>
+        <div id="result"></div>
+    </main>
+    <footer>
+        <p>ILAC & EFREI - HTML, CSS, and JavaScript Assignment - Gabriel Tannous</p>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
